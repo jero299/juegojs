@@ -1,6 +1,25 @@
 html {
-    background-color: #282828;
+    background:linear-gradient(to bottom right, rgb(95, 161, 125), rgb(201, 109, 124)) ;
+ width: 900px;
+    height: 900px;
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    /*min-height: auto; creo que asi se ve mejor*/
 }
-canvas{
+canvas {
     border: #a1ddc4 3px solid ;
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 800px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.titulo {
+    text-align: center;
 }
