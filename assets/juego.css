@@ -3,8 +3,13 @@ html {
     /*min-height: auto; creo que asi se ve mejor*/
 
 }
+#contenedorCanvas {
+    display: flex;
+    justify-content: center;
+}
 canvas {
-    flex:auto;
+    background-color: #57bde7;
+    display: flex;
     justify-items: center;
     border: #a1ddc4 3px solid;
 }
@@ -12,3 +17,5 @@ canvas {
     text-align: center;
     color: white;
 }
+
+
